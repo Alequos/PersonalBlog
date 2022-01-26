@@ -1,0 +1,27 @@
+.container{
+    background-color: rgb(62, 62, 124);
+    /* display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "main"
+    "main"
+    "main"
+    "sd"
+    "ft";
+    border: 2px solid black; */
+}
+
+/* .nestedgrid{
+    diplay:grid;
+    grid-area: main;
+} */
+
+.aside{
+    grid-area: sd;
+}
+
+@media (max-width:327px) {
+    .foto1 {
+        display: none;
+    }
+}

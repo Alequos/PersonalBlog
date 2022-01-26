@@ -1,0 +1,16 @@
+@media (min-width: 760px) and (max-width: 999px){
+    .container{
+        background-color: rgb(70, 70, 155);
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas: 
+        "main main main sd sd sd"
+        "main main main sd sd sd"
+        "main main main sd sd sd"
+        "main main main sd sd sd"
+        "main main main sd sd sd"
+        "ft ft  ft ft ft ft ";
+        border: 2px solid black;
+       }
+    }
+    
