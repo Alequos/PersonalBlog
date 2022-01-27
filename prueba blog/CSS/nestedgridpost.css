@@ -20,7 +20,7 @@
     grid-area: sd;
 }
 
-@media (max-width:327px) {
+@media (max-width:600px) {
     .foto1 {
         display: none;
     }
